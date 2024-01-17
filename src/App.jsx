@@ -65,8 +65,10 @@ function App() {
       <div>
         
       <div className="right">
-        <div className='heading'>
-          <h2>{cart.length > 0 && "Cart"}</h2>
+        <div className='heading flex direction'>
+          <h2>Cart</h2>
+          <p>{cart.length <= 0 && "No Products added To Cart"}</p>
+
         </div>
           <div className='flex gap direction'>
             {cart && cart.map(c => (

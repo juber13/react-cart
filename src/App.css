@@ -36,5 +36,11 @@ html , body {
   width: 80%;
   margin: 100px auto;
   display: flex;
+  align-items: center;
   justify-content: space-around;
+}
+
+.right{
+  border: 1px solid #ddd;
+  padding: 1rem;
 }
